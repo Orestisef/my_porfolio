@@ -29,6 +29,16 @@ $background-optacity: 0.6;
     }
 }
 
+// Set Text Color
+
+@function set-text-color($color) {
+    @if (lightness($color) > 40) {
+        @return #444;
+    } @else {
+        @return #fff;
+    }
+}
+
 // Media Qyery Mixins
 @mixin  mediaSm {
     @media screen and (max-width: 500px) {
