@@ -141,6 +141,7 @@ header {
 
 main {
   padding-top: 4rem;
+  padding: 1rem;
   min-height: calc(100vh - 60px); }
   main .icons {
     margin-top: 1rem; }
