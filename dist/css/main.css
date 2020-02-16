@@ -117,7 +117,7 @@ body {
       background: rgba(34, 40, 49, 0.6); }
 
 h1, h2, h3 {
-  margin: 0;
+  margin: 4rem;
   font-weight: 400; }
   h1.lg-heading, h2.lg-heading, h3.lg-heading {
     font-size: 6rem; }
